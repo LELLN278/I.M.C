@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="tabela-titulo">Tabela IMC</h1>
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>imc</th>
+                        <th>classificação</th>
+                        <th>obesidade <span class="grau">(grau)</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menor que 18,5</td>
+                        <td>magreza</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>entre 18,5 e 24,9</td>
+                        <td>normal</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>entre 25,0 e 29,9</td>
+                        <td>sobrepeso</td>
+                        <td>I</td>
+                    </tr>
+                    <tr>
+                        <td>entre 30,0 e 39,9</td>
+                        <td>obesidade</td>
+                        <td>II</td>
+                    </tr>
+                    <tr>
+                        <td>maior que 40,0</td>
+                        <td>obesidade grave</td>
+                        <td>III</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+            <h1 class="calculo-titulo">Calcule o seu IMC</h1>
+        <form class="formImc" action="" method="get" >
+            <label for="altura">Altura:</label>
+            <input name="altura" type="text" id="altura" class="altura">
+
+            <label for="peso">Peso:</label>
+            <input name="peso" type="text" id="peso" class="peso">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <divc class="resultado"></div>
+
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
