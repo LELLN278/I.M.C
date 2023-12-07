@@ -117,11 +117,11 @@ table td {
 
 .p-resultado, .p-wrong{
     font-size: 17px;
-    background-color:#6de477;
+    background-color:#8be292;
     padding: 10px 20px;
     text-align: center;
 }
 
 .p-wrong{
-    background-color: rgb(229, 138, 132);
+    background-color: rgb(224, 139, 133);
 }
