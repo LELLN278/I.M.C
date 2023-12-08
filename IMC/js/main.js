@@ -7,7 +7,7 @@ formImc.addEventListener('submit', function (evento) {
     const inputAltura = evento.target.querySelector('.altura');
     const inputPeso = evento.target.querySelector('.peso');
 
-    const altura = Number(inputAltura.value);
+    const altura = parseFloat(inputAltura.value.replace(',', '.'));
     const peso = Number(inputPeso.value);
 
     if (!peso || peso >595 || peso < 2) {
